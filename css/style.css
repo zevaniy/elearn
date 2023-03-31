@@ -2600,10 +2600,6 @@ textarea.input {
 }
 
 @media (max-width: 61.99875em) {
-  .webp.hero__content {
-    background-image: none;
-  }
-
   .menu__body {
     position: fixed;
     top: 0;
@@ -2727,7 +2723,7 @@ textarea.input {
   }
 
   .hero__content {
-    background-image: none;
+    background-size: 0%;
   }
 
   .info-row {
