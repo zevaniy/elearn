@@ -1617,32 +1617,10 @@ textarea.input {
           flex: 0 1 37.5rem;
   text-align: center;
   overflow: hidden;
+  padding-top: 8.25rem;
+  padding-bottom: 7.6875rem;
   border-radius: 1.25rem;
   position: relative;
-}
-
-@supports (padding-top: clamp( 8.25rem , 8.25rem  +  0vw , 8.25rem )) {
-  .banner-row__item {
-    padding-top: clamp( 8.25rem , 8.25rem  +  0vw , 8.25rem );
-  }
-}
-
-@supports not (padding-top: clamp( 8.25rem , 8.25rem  +  0vw , 8.25rem )) {
-  .banner-row__item {
-    padding-top: calc(8.25rem + 0 * (100vw - 20rem) / 78.4375);
-  }
-}
-
-@supports (padding-bottom: clamp( 7.6875rem , 7.6875rem  +  0vw , 7.6875rem )) {
-  .banner-row__item {
-    padding-bottom: clamp( 7.6875rem , 7.6875rem  +  0vw , 7.6875rem );
-  }
-}
-
-@supports not (padding-bottom: clamp( 7.6875rem , 7.6875rem  +  0vw , 7.6875rem )) {
-  .banner-row__item {
-    padding-bottom: calc(7.6875rem + 0 * (100vw - 20rem) / 78.4375);
-  }
 }
 
 .no-webp .banner-row__item--instructors {
