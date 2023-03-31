@@ -1,4 +1,4 @@
-# [eLearn](https://zevaniy.github.io/elearn/ "eLearn")
+# eLearn [[demo]](https://zevaniy.github.io/elearn/ "eLearn")
 ### **landing-page website layout**
 
 *[Project for portfolio and skill improvement]*
