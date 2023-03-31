@@ -2726,6 +2726,10 @@ textarea.input {
     background-image: none;
   }
 
+  .hero .webp.hero__content {
+    background-image: none;
+  }
+
   .info-row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
